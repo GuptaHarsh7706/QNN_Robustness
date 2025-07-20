@@ -1,0 +1,74 @@
+{
+  "clean": {
+    "mean": {
+      "accuracy": 0.829,
+      "kappa": 0.8096792037245001,
+      "mcc": 0.8109488572283368,
+      "top3_acc": 93.4,
+      "auroc": 0.9735161028687509,
+      "logloss": 0.6557339494871389
+    },
+    "std": {
+      "accuracy": 0.0,
+      "kappa": 0.0,
+      "mcc": 0.0,
+      "top3_acc": 0.0,
+      "auroc": 0.0,
+      "logloss": 0.0
+    }
+  },
+  "depolarizing": {
+    "mean": {
+      "accuracy": 0.1190,
+      "kappa": 0.0199,
+      "mcc": 0.0200,
+      "top3_acc": 0.3290,
+      "auroc": 0.5184,
+      "logloss": 13.7727
+    },
+    "std": {
+      "accuracy": 0.0,
+      "kappa": 0.0,
+      "mcc": 0.0,
+      "top3_acc": 0.0,
+      "auroc": 0.0,
+      "logloss": 0.0
+    }
+  },
+  "amplitude_damping": {
+    "mean": {
+      "accuracy": 0.1030,
+      "kappa": 0.0017,
+      "mcc": 0.0018,
+      "top3_acc": 0.3070,
+      "auroc": 0.5021,
+      "logloss": 14.0474
+    },
+    "std": {
+      "accuracy": 0.0,
+      "kappa": 0.0,
+      "mcc": 0.0,
+      "top3_acc": 0.0,
+      "auroc": 0.0,
+      "logloss": 0.0
+    }
+  },
+  "random_x": {
+    "mean": {
+      "accuracy": 0.1090,
+      "kappa": 0.0090,
+      "mcc": 0.0090,
+      "top3_acc": 0.3080,
+      "auroc": 0.5009,
+      "logloss": 13.9764
+    },
+    "std": {
+      "accuracy": 0.0,
+      "kappa": 0.0,
+      "mcc": 0.0,
+      "top3_acc": 0.0,
+      "auroc": 0.0,
+      "logloss": 0.0
+    }
+  }
+}

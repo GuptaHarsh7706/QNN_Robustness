@@ -1,0 +1,76 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Ignore virtual environment
+env/
+venv/
+ENV/
+
+# Ignore Datasets
+datasets/
+
+#Ignore paper
+paper/
+
+#Ignore References
+references/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# Ignore test cache
+.pytest_cache/
+.tox/
+coverage.xml
+htmlcov/
+.cache/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Ignore LaTeX temporary files
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.synctex.gz
+*.pdf
+
+# Ignore model files or large binaries
+*.h5
+*.ckpt
+*.onnx
+*.npz
+
+# Ignore Jupyter runtime and metadata
+*.ipynb-meta
+.jupyter/
+
+# Ignore compiled Python files
+*.so
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore temporary notebooks
+notebooks/*_temp.ipynb
